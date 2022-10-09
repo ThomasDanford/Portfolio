@@ -1,9 +1,11 @@
--- NOTE: These queries were written out after the project was finished, they may not be the same as what was used in the project itself
--- For example, the original project used an average of several different variables to create the "jobs", "income", and "population" metrics. Here only one variable is used.
+-- MUNICIPALITY SCREENER FOR RESIDENTIAL REAL ESTATE
+-- Purpose: Help identify municipalities in Finland that show investment potential in residential real estate
+-- Tables: prices.csv, demographic2015.csv, demographic2020.csv, postcodes.csv
+
 
 -- 1. RESTRUCTURE "PRICES" TABLE
 -- The "prices" table is grouped by year [year, municipality, house type, m2 price]
--- We need it grouped by municipality and house type, with 2015 and 2020 prices in their own columns, and a new column for the growth from 2015 to 2020 
+-- We need it grouped by municipality and house type, with 2015 and 2020 prices in individual columns and a new column for 2015-2020 price growth
 -- Format: [municipality, house type, 2015 price, 2020 price, price growth]
 
 SELECT
