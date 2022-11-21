@@ -3,7 +3,7 @@
 
 [Link to Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWMxMWVkOWItMzg5Yy00YzU5LWFkNjAtMjM2NmQ5NzFmMDFmIiwidCI6IjU3YTZkZmMxLTI3MWUtNDIyNS1hYTMzLTFkNGM2ZmVhNjYxYSIsImMiOjh9)
 
-[Link to SQL code in GitHub](https://github.com/ThomasDanford/RealEstateProject/blob/main/Real%20Estate%20Project.sql)
+[Link to SQL code in GitHub](https://github.com/ThomasDanford/RealEstateProject/blob/main/SQL_queries.sql)
 
 ---
 
