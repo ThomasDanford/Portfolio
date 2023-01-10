@@ -20,7 +20,7 @@
 The data was collected from Tilastokeskus, stored in a MySQL database, queried using DBeaver and visualized in PowerBI.
 
 Key steps in analysis:
-* Cleaning and restructuringoriginal data in SQL for best usability in visualization
+* Cleaning and restructuring original data in SQL for best usability in visualization
 * Selecting the most suitable metrics to represent demographic categories
 * Creating the category rankings in SQL based on demographic data
 * Determining the best and most logical presentation method
